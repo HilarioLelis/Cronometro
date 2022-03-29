@@ -1,0 +1,47 @@
+:root {
+    --cor-bg-principal: #52bce6;
+    --cor-bg-secundaria: #fff;
+}
+
+body {
+    background: var(--cor-bg-principal);
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: var(--cor-bg-secundaria);
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 2.6em;
+    text-decoration: uppercase;
+}
+
+#seconds, 
+#tens {
+ font-size: 2em;
+}
+
+button {
+    background: var(--cor-bg-principal);
+    color: var(--cor-bg-secundaria);
+    border: solid 1px var(--cor-bg-secundaria);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;   
+}
+
+button:hover {
+    background: var(--cor-bg-secundaria);
+    border: solid 1px var(--cor-bg-secundaria);
+    color: var(--cor-bg-principal);
+    transition: 500ms;
+}
